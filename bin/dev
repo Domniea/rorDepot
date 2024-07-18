@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+if ! gem list foreman -i --silent; then
+  echo "Installing foreman..."
+  gem install foreman
+fi
+
+
+# Rails.application.config.dartsass.builds = {
+#   "app/index.sass"  => "app.css",
+#   "products.scss"       => "products.css"
+# }
+
+exec foreman start -f Procfile.dev "$@"
