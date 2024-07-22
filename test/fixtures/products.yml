@@ -1,15 +1,23 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  ∙: MyString
-  title: MyString
+  # ∙: MyString
+  title: MyString1
   description: MyText
-  image_url: MyString
+  image_url: lorem.jpg
   price: 9.99
 
 two:
-  ∙: MyString
-  title: MyString
+  # ∙: MyString
+  title: MyString2
   description: MyText
-  image_url: MyString
+  image_url: lorem.jpg
   price: 9.99
+  
+ruby:
+  # ∙: MyString2
+  title: MyString3
+  description: MyText
+  image_url: ruby.jpg
+  price: 49.50
+
